@@ -1,11 +1,10 @@
 "use client";
 import { CodeHighlight } from "@mantine/code-highlight";
-import { Textarea, Button } from "@mantine/core";
-import { useState } from "react";
 import "@mantine/code-highlight/styles.css";
+import { Button, Textarea } from "@mantine/core";
 import js_beautify from "js-beautify";
+import { useState } from "react";
 import classes from "./Home.module.css";
-import Image from "next/image";
 
 export default function Home() {
   const [inputValue, setInputValue] = useState("");
